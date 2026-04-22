@@ -1,4 +1,4 @@
-module github.com/ndw/keycloak-jwt-auth
+module github.com/tomlissen/keycloak-jwt-auth
 
 go 1.22
 
