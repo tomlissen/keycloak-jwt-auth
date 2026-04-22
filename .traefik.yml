@@ -1,0 +1,14 @@
+displayName: Keycloak JWT Auth
+type: middleware
+import: github.com/ndw/keycloak-jwt-auth
+summary: >
+  OIDC authorization-code flow with JWT validation. Redirects unauthenticated
+  browser requests to Keycloak, stores the access token in a cookie on callback,
+  and validates JWT clientId and role on every subsequent request.
+testData:
+  keycloakIssuerURL: "https://keycloak.example.com/realms/myrealm"
+  keycloakClientId: "my-client"
+  requiredRole: "user"
+  sessionSecret: "change-me-32-bytes-minimum-secret"
+  callbackPath: "/sso/callback"
+  logoutPath: "/sso/logout"
