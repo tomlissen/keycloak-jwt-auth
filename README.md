@@ -64,7 +64,7 @@ On callback, the raw Keycloak access token is stored as an `HttpOnly` cookie. Th
 experimental:
   localPlugins:
     keycloak-jwt-auth:
-      moduleName: github.com/ndw/keycloak-jwt-auth
+      moduleName: github.com/tomlissen/keycloak-jwt-auth
 ```
 
 ### Dynamic configuration

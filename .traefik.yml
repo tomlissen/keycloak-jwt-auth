@@ -1,6 +1,6 @@
 displayName: Keycloak JWT Auth
 type: middleware
-import: github.com/ndw/keycloak-jwt-auth
+import: github.com/tomlissen/keycloak-jwt-auth
 summary: >
   OIDC authorization-code flow with JWT validation. Redirects unauthenticated
   browser requests to Keycloak, stores the access token in a cookie on callback,
